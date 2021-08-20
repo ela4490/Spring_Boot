@@ -1,2 +1,2 @@
-### Spring Boot Application
-A demo application which renders students information on web using Spring Boot.
+### Spring Framework
+This repositories explores various features of Spring framework.

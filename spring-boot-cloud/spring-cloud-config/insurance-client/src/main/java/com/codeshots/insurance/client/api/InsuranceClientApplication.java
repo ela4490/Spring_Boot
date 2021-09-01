@@ -25,6 +25,11 @@ public class InsuranceClientApplication {
     @Value("${insurance.provider.url}")
     private String url;
 
+    /* GET method
+    * This function consumes the insurance-provider using Rest
+    * template.
+    * @return list of plans
+    */
     @GetMapping("/getPlans")
     public List<String> getPlans() {
         List<String> plans = template.getForObject(url, List.class);

@@ -18,7 +18,7 @@ public class InsuranceProviderApplication {
     /* GET method
     * This functions returns a list of strings using Java 8 stream API
     * Rest end point /getUpdatePlans is mapped to Config Server
-    * using GitHub repository.
+    * using insurance-config-server GitHub repository.
     * @return list of plans
     */
     @GetMapping("/getUpadtePlans")

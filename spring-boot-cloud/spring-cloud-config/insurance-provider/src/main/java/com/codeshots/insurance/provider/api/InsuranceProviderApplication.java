@@ -15,6 +15,12 @@ import java.util.stream.Stream;
 @RequestMapping("/insurance-service")
 public class InsuranceProviderApplication {
 
+    /* GET method
+    * This functions returns a list of strings using Java 8 stream API
+    * Rest end point /getUpdatePlans will be mapped to Config Server
+    * using GitHub repository.
+    * @return list of plans
+    */
     @GetMapping("/getUpadtePlans")
     public List<String> getPlans() {
         return Stream.of("Premium", "Gold", "Platinum").collect(Collectors.toList());

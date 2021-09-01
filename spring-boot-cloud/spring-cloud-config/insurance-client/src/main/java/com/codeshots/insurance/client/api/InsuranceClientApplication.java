@@ -26,8 +26,7 @@ public class InsuranceClientApplication {
     private String url;
 
     /* GET method
-    * This function consumes the insurance-provider using Rest
-    * template.
+    * This function consumes the insurance-provider using Rest template.
     * @return list of plans
     */
     @GetMapping("/getPlans")

@@ -21,7 +21,7 @@ public class InsuranceProviderApplication {
     * using insurance-config-server GitHub repository.
     * @return list of plans
     */
-    @GetMapping("/getUpadtePlans")
+    @GetMapping("/getUpdatePlans")
     public List<String> getPlans() {
         return Stream.of("Premium", "Gold", "Platinum").collect(Collectors.toList());
     }

@@ -27,6 +27,11 @@ public class InsuranceClientApplication {
 
     /* GET method
     * This function consumes the insurance-provider using Rest template.
+    * From insurance-client, the request will go to the insurance-config-server.
+    * In insurance-config-server, application.properties file will fetch the
+    * key ${insurance.provider.url}. Based on the key, it will find the
+    * appropriate end point URL which is mapped. This will invoke the service
+    * then we will get the required response.
     * @return list of plans
     */
     @GetMapping("/getPlans")

@@ -1,2 +1,2 @@
-### Spring Framework
-This repositories explores various features of Spring framework.
+### Spring Boot
+This repository explores various features of Spring Boot.
